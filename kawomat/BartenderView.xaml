@@ -1,0 +1,42 @@
+﻿<Window x:Class="kawomat.BartenderView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kawomat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="933.738" Loaded="Window_Loaded">
+    <Grid x:Name="myGrid" Margin="10,10,10,10">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="stcpCoffeSize" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top">
+            <Button x:Name="btnSmallCoffe" Content="Small Coffe" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="154" Height="120" FontSize="20" Background="#FFD188CD" Click="btnSmallCoffe_Click"/>
+            <Button x:Name="btnMediumCoffe" Content="Medium Coffe" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="154" Height="120" FontSize="20" Background="#FFD188CD" Click="btnMediumCoffe_Click"/>
+            <Button x:Name="btnBigCoffe" Content="Big Coffe" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="154" Height="120" FontSize="20" Background="#FFD188CD" Click="btnBigCoffe_Click" />
+        </StackPanel>
+        <StackPanel x:Name="stcpAddMenu" HorizontalAlignment="Left" Margin="184,10,0,0" VerticalAlignment="Top" Width="143">
+            <Button x:Name="btnwithMilk" Content="With Milk" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="90" FontSize="16" Background="#FFDEC46A" Click="btnwithMilk_Click"/>
+            <Button x:Name="btnwithCardamon" Content="With Cardamon" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="90" FontSize="16" Background="#FFDEC46A" Click="btnwithCardamon_Click"/>
+            <Button x:Name="btnwithWhisky" Content="With Whisky" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="90" FontSize="16" Background="#FFDEC46A" Click="btnwithWhisky_Click"/>
+            <Button x:Name="btnwithIceCream" Content="With IceCream" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="90" FontSize="16" Background="#FFDEC46A" Click="btnwithIceCream_Click"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Margin="340,10,0,0" VerticalAlignment="Top">
+            <Button x:Name="btnPlus" Content="+" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="45" Height="45" FontSize="20" Background="#FFA4DFF5" Click="btnPlus_Click"/>
+            <Button x:Name="btnMinus" Content="-" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="45" Height="45" FontSize="20" Background="#FFA4DFF5" Click="btnMinus_Click"/>
+        </StackPanel>
+        <TextBox x:Name="txbOuantinity" Text="1" Margin="402,19,393,299" FontSize="60" HorizontalContentAlignment="Center" TextChanged="txbOuantinity_TextChanged"/>
+        <Button x:Name="btnAddToBill" Content="Add item to bill" HorizontalAlignment="Left" Height="216" Margin="340,154,0,0" VerticalAlignment="Top" Width="173" FontSize="16" Background="#FFA4DFF5" Click="btnAddToBill_Click"/>
+        <TextBlock x:Name="tblQuantinity" FontSize="18" TextAlignment="Center" HorizontalAlignment="Left" Height="30" Margin="340,119,0,0" TextWrapping="Wrap" Text="quantinity" VerticalAlignment="Top" Width="125"/>
+        <Button x:Name="btnSendOrder" Content="Send Order" HorizontalAlignment="Left" Height="351" Margin="780,19,0,0" VerticalAlignment="Top" Width="112" Background="#FFA4DFF5" FontSize="20" Click="btnSendOrder_Click"/>
+        <ListView x:Name="lstvOrders" ScrollViewer.HorizontalScrollBarVisibility="Visible" HorizontalContentAlignment="Stretch" HorizontalAlignment="Left" Height="351" Margin="529,19,0,0" VerticalAlignment="Top" Width="235">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
+    
+    

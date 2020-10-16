@@ -1,0 +1,14 @@
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\bin\Debug\kawomat.exe.config
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\bin\Debug\kawomat.exe
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\bin\Debug\kawomat.pdb
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\BartenderView.g.cs
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\App.g.cs
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat_MarkupCompile.cache
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat_MarkupCompile.lref
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\BartenderView.baml
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat.g.resources
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat.Properties.Resources.resources
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat.csproj.GenerateResource.cache
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat.csproj.CoreCompileInputs.cache
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat.exe
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat.pdb
