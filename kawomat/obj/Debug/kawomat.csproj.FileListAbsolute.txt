@@ -12,3 +12,4 @@ D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawom
 D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat.csproj.CoreCompileInputs.cache
 D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat.exe
 D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat.pdb
+D:\OneDriveVitto239\OneDrive\C#Aplikacje\kawomat\kawomat\kawomat\obj\Debug\kawomat.csprojAssemblyReference.cache

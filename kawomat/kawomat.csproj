@@ -55,6 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Classes\Bartender\BillClass.cs" />
+    <Compile Include="Classes\Bartender\RekordClass.cs" />
     <Compile Include="Classes\BigBlackCoffe.cs" />
     <Compile Include="Classes\Decorators\CardamonnDEcorator.cs" />
     <Compile Include="Classes\Decorators\CoffeMakerDekorator.cs" />
